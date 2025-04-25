@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+html, body
+{
+	padding: 0;
+	margin: 0;
+}
+html
+{
+	height: 100%;
+}
+
+p
+{
+	margin: 0;
+}
+
+body
+{
+	background-color: #E4E6E8;
+	font-family: 'Noto Sans',sans-serif,arial,verdana;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333;
+	min-height: 100%;
+	position: relative;
+	-webkit-text-size-adjust: none;
+}
+
+body *
+{
+	text-shadow: none;
+}
