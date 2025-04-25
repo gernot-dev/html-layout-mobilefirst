@@ -37,3 +37,71 @@ body *
 {
 	text-shadow: none;
 }
+
+.anker:before
+{
+    display: block;
+	content: " ";
+	height: 100px;
+    margin-top: -100px;
+	visibility: hidden;
+}
+
+/* Page */
+#page
+{
+	width: 100%;
+}
+
+/* Layout Header*/
+#wg-navBar
+{
+	width: 100%;
+	height: 70px;
+	background-color: #138DD8;
+	border-bottom: 10px solid #222222;
+	position: fixed;
+	z-index: 5;
+}
+
+.wg-navBar-shadow
+{
+	box-shadow: 0px 0.1em 0.5em #AAA;
+}
+
+#wg-navBar-block
+{
+	width: 100%;
+	height: 70px;
+}
+
+.wg-navBar-icon
+{
+	background: center center no-repeat transparent;
+	background-size: 40px 40px;
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.wg-navBar-icon-menu
+{
+	background-image: url(icon-hamburger-menu.svg);
+}
+
+.wg-navBar-icon-blnk-single
+{
+	background-image: url(icon-arrow-left-single.svg);
+	background-size: 32px 32px;
+}
+.wg-navBar-icon-blnk-double
+{
+	background-image: url(icon-arrow-left-double.svg);
+	background-size: 32px 32px;
+}
+.wg-navBar-icon-blnk-tripple
+{
+	background-image: url(icon-arrow-left-tripple.svg);
+	background-size: 32px 32px;
+}
